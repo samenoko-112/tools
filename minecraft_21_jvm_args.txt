@@ -1,0 +1,9 @@
+-XX:+UseG1GC
+-XX:+UnlockExperimentalVMOptions
+-XX:+DisableExplicitGC
+-XX:G1NewSizePercent=30
+-XX:G1MaxNewSizePercent=60
+-XX:G1HeapRegionSize=8M
+-XX:G1ReservePercent=20
+-XX:G1MixedGCLiveThresholdPercent=85
+-XX:+AlwaysPreTouch
